@@ -121,12 +121,19 @@ This is a monorepo. Each SDK package lives in its own directory
 under `packages/` and is published independently.
 
 zivana-sdk/
+
 ├── packages/
+
 │   ├── sdk-typescript/   ← @zivana-labs/sdk-ts
+
 │   ├── sdk-python/       ← zivana-sdk on PyPI
+
 │   └── sdk-javascript/   ← @zivana-labs/sdk-js
+
 ├── docs/                 ← language-specific guides
+
 ├── examples/             ← working examples in all three languages
+
 └── README.md
 
 ---
